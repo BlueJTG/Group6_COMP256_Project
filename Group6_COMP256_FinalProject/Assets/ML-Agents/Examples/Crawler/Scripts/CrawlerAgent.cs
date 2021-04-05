@@ -167,7 +167,7 @@ public class CrawlerAgent : Agent
                     if (crawlerStVSModel)
                         behaviorParams.Model = crawlerStVSModel; //assign the model
                     m_RandomizeWalkSpeedEachEpisode = true; //randomize m_TargetWalkingSpeed during training
-                    SpawnTarget(staticTargetPrefab, transform.TransformPoint(new Vector3(0, 0, 1000))); //spawn target
+                    SpawnTarget(staticTargetPrefab, transform.TransformPoint(new Vector3(191, 0.5f, 0))); //spawn target
                     break;
                 }
         }
